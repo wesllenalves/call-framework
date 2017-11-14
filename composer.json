@@ -1,0 +1,19 @@
+{
+    "name": "vendor/callcocam",
+    "description": "Framework baseado no hxphp",
+    "authors": [
+        {
+            "name": "Claudio Campos",
+            "email": "callcocam@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SIGA\\": "vendor/SIGA/",
+            "App\\Base\\": "App/Base/",
+            "App\\Home\\": "App/Home/",
+            "App\\Admin\\": "App/Admin/"
+        }
+    }
+}
